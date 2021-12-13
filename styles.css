@@ -1,0 +1,83 @@
+html, body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    background-color: #1f1f1f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 2.5vw;
+    border-left: 0%;
+    padding-top: 10px
+}
+
+
+a{
+    color: white;
+    font-size: 2vw;
+}
+
+.titel{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 0%;
+    font-size: 1.5vw;
+    padding-top: 1vw;
+}
+
+.beskrivelse{
+    text-align: center;
+    margin-top: 0%;
+    letter-spacing: 2px;
+    font-size: 1vw;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "velkommen velkommen"
+      "blog-posts kontakt-mig";
+    background-color: #1f1f1f;
+}
+  
+.velkommen { 
+    grid-area: velkommen;
+    text-align: center;
+    color: white;
+}
+
+  .sebastian{
+    max-height: 15vw;
+    max-width: 25vw;
+}
+
+p{
+    font-size: 1.2vw;
+}
+
+.blog-posts {
+    grid-area: blog-posts; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+    padding-top: 2vw
+}
+  
+.kontakt-mig {
+    grid-area: kontakt-mig; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+    padding-top: 2vw
+}
+  
