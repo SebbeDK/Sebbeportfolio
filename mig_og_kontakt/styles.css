@@ -18,7 +18,11 @@ html, body{
 
 a{
     color: white;
-    font-size: 2vw;
+    font-size: 1.5vw;
+}
+
+a:hover{
+    color: blue;
 }
 
 .titel{

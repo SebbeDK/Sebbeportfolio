@@ -18,14 +18,19 @@ html, body{
 
 a{
     color: white;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
+
+a:hover{
+    color: blue;
+}
+
 
 .titel{
     text-align: center;
     letter-spacing: 1px;
     margin-bottom: 0%;
-    font-size: 1.5vw;
+    font-size: 2vw;
     padding-top: 1vw;
 }
 
