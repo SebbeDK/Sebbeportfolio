@@ -44,12 +44,13 @@ a:hover{
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
       "velkommen velkommen"
-      "blog-posts kontakt-mig";
+      "blog-posts kontakt-mig"
+      "Studiemakker Studiemakker";
     background-color: #1f1f1f;
 }
   
@@ -74,7 +75,7 @@ p{
     text-align: center;
     text-decoration: none;
     font-size: 2vw;
-    padding-top: 2vw
+    padding-top: 2vw;
 }
   
 .kontakt-mig {
@@ -83,8 +84,18 @@ p{
     text-align: center;
     text-decoration: none;
     font-size: 2vw;
-    padding-top: 2vw
+    padding-top: 2vw;
 }
+
+.studiemakker {
+    grid-area: Studiemakker; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+    padding-top: 2vw;
+}
+  
   
 @media only screen and (max-width: 768px) {    
     .header{
