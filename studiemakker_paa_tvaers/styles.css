@@ -25,3 +25,64 @@ a:hover{
     color: blue;
 }
 
+.titel{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 0%;
+    font-size: 1.5vw;
+    padding-top: 1vw;
+}
+
+.beskrivelse{
+    text-align: center;
+    margin-top: 0%;
+    letter-spacing: 2px;
+    font-size: 1vw;
+}
+
+p{
+    font-size: 1.6vw;
+    }
+
+    .grid {  display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "Tekst Tekst"
+          "Billede1 Billede2"
+          "Billede3 Billede4";
+          background-color: #1f1f1f;
+      }
+      
+      .Tekst { 
+          grid-area: Tekst;
+          color: white;
+          text-align: center;
+          align-content: space-around;
+         }
+      
+      .Billede1 { 
+          grid-area: Billede1; 
+          text-align: center;
+        }
+      
+        .Billede2 { 
+            grid-area: Billede2; 
+            text-align: center;
+          }      
+
+          .Billede3 { 
+            grid-area: Billede3; 
+            text-align: center;
+          }     
+
+          .Billede4 { 
+            grid-area: Billede4; 
+            text-align: center;
+          }      
+img{
+    max-height: 15vw;
+    max-width: 25vw;
+}
